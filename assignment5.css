@@ -1,0 +1,181 @@
+/* Reset and default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #007bff;
+    padding: 20px;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    padding: 50px 20px;
+    background-color: #a9d5e0;
+    text-align: center;
+  }
+  
+  .hero-section h2 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Before/After Section */
+  .before-after-section {
+    padding: 50px 20px;
+    background-color: #d6ee7c;
+  }
+  
+  .before-after-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .image-item {
+    text-align: center;
+  }
+  
+  .image-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .image-item h3 {
+    margin: 10px 0;
+  }
+  
+  /* Painter Action Section */
+  .painter-section {
+    padding: 50px 20px;
+    background-color: #edaa2f;
+  }
+  
+  .painter-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .painter-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .painter-item img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #007bff;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+  /* Sherwin-Williams Brand Section */
+.brand-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .brand-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .brand-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .brand-image img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .brand-info {
+    max-width: 400px;
+  }
+  
+  .brand-info h3 {
+    font-size: 24px;
+    color: #005A8B;
+  }
+  
+  .brand-info p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .brand-info ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .brand-info ul li {
+    font-size: 16px;
+  }
+  
