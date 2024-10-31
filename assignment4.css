@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b6d2e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .form-container {
+    background-color: #c0e2ee;
+    padding: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(208, 152, 152, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .styled-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .styled-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .styled-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .styled-form input[type="text"],
+  .styled-form input[type="email"],
+  .styled-form input[type="phone"],
+  .styled-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .styled-form input:focus, 
+  .styled-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .styled-form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .styled-form button:hover {
+    background-color: #1fcf2b;
+  }
+ /* For city, state, and postal code layout */
+.inline-fields {
+    display: flex;
+    justify-content: space-between; /* Aligns fields to opposite sides */
+    gap: 30px; /* Adjust gap between state and postal code */
+  }
+  
+  .inline-fields div {
+    flex: 1;
+  }
+  
+  .inline-fields input {
+    width: 100%;
+  }
+  
