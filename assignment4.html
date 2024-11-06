@@ -1,61 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Styled Online Form</title>
-  <link rel="stylesheet" href="assignment4.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuing Education Course Evaluation</title>
+    <link rel="stylesheet" href="assignment4.css">
 </head>
 <body>
 
-  <div class="form-container">
-    <form action="/submit-form" method="post" class="styled-form">
-      <h2>Contact Us</h2>
+<header>
+   
+  <a href="https://www.centennialcollege.ca">
+    <img src="https://th.bing.com/th/id/OIP.as_Aeavm8exC-R8g-jzU6AHaD4?rs=1&pid=ImgDetMain" alt="Centennial College Logo" class="logo">
+</a>
+<div class="header-text">
+  <h1>Centennial College</h1>
+  <h1>Continuing Education Course/Instructor Evaluation</h1>
+  <p>Please read each statement carefully and consider each one individually. Use the <strong>computer card</strong> to make your choice (use a pencil to fill in the space). Give only <strong>one answer</strong> for each question.</p>
+</div>
+</header>
 
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Your name.." required>
-
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Your email.." required>
-
-      <label for="email">Phone</label>
-      <input type="phone" id="phone" name="phone" placeholder="Your phone.." required>
-
-      <label for="email">Address</label>
-      <input type="phone" id="phone" name="phone" placeholder="Your phone.." required>
+<main>
+    <form action="#" method="post">
       
+        <section>
+          
+            <h2>Course Information</h2>
+            <label for="course-name">Course Name/Code:</label>
+            <input type="text" id="course-name" name="course-name" required>
 
-      <label for="subject">Subject</label>
-      <input type="text" id="subject" name="subject" placeholder="Subject..">
+            <label for="semester">Semester:</label>
+            <select id="semester" name="semester" required>
+                <option value="fall">Fall</option>
+                <option value="winter">Winter</option>
+                <option value="spring-summer">Spring/Summer</option>
+            </select>
 
-      <label for="address">Street Address</label>
-      <input type="text" id="address" name="address" placeholder="123 Main St.." required>
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" min="2000" max="2099" required>
 
-      <label for="city">City</label>
-      <input type="text" id="city" name="city" placeholder="City.." required>
+            <label for="instructor">Instructor:</label>
+            <input type="text" id="instructor" name="instructor" required>
+        </section>
 
-      <div class="inline-fields">
-        <div>
-          <label for="state">State</label>
-          <input type="text" id="state" name="state" placeholder="State.." required style="margin-right: 10px;">
-        </div>
+        <section>
+            <h2>Instructor Evaluation</h2>
+            <p>How would you rate the instructor's:</p>
+            
+            <label>1. Knowledge of subject:</label>
+            <input type="radio" name="knowledge" value="excellent" required> Excellent
+            <input type="radio" name="knowledge" value="good"> Good
+            <input type="radio" name="knowledge" value="fair"> Fair
+            <input type="radio" name="knowledge" value="not-satisfactory"> Not Satisfactory
+            
+            <!-- Repeat similar groups for helpfullness, courtesy, communication skills, and overall performance -->
+            
+        </section>
 
-        <div>
-          <label for="zip">Postal Code</label>
-          <input type="text" id="zip" name="zip" placeholder="Postal Code.." required>
-        </div>
-      </div>
+        <section>
+            <h2>Course Evaluation</h2>
+            <label>6. How would you rate the course materials?</label>
+            <input type="radio" name="course-materials" value="excellent" required> Excellent
+            <input type="radio" name="course-materials" value="good"> Good
+            <input type="radio" name="course-materials" value="fair"> Fair
+            <input type="radio" name="course-materials" value="not-satisfactory"> Not Satisfactory
+            
+            <!-- Add similar groups for other questions in the Course section -->
+            
+        </section>
 
-      <label for="country">Country</label>
-      <input type="text" id="country" name="country" placeholder="Country..">
+        <section>
+            <h2>General Information</h2>
+            <label>9. Was the course outline reviewed/explained at the beginning of your course?</label>
+            <input type="radio" name="course-outline" value="yes" required> Yes
+            <input type="radio" name="course-outline" value="no"> No
+            <input type="radio" name="course-outline" value="not-sure"> Not Sure
+            
+            <label>10. Would you recommend this course to a friend with the same interests?</label>
+            <input type="radio" name="recommend" value="yes" required> Yes
+            <input type="radio" name="recommend" value="no"> No
+            <input type="radio" name="recommend" value="not-sure"> Not Sure
+        </section>
 
+        <section>
+            <h2>Additional Comments</h2>
+            <label for="best-thing">11. What is the best thing about this course?</label>
+            <textarea id="best-thing" name="best-thing"></textarea>
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" placeholder="Write your message we will contact you as soon as possible" style="height:150px"></textarea>
+            <label for="improve">12. How could we improve this course?</label>
+            <textarea id="improve" name="improve"></textarea>
 
-      <button type="submit">Submit</button>
+            <label for="other-comments">13. Other comments:</label>
+            <textarea id="other-comments" name="other-comments"></textarea>
+        </section>
+
+        <button type="submit">Submit</button>
     </form>
-  </div>
+</main>
+
+<footer>
+    <p>Thank you! We pay attention to your feedback.</p>
+    <p>Web: <a href="https://www.centennialcollege.ca/continuing-education">www.centennialcollege.ca/continuing-education</a></p>
+    <p>Email: <a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a></p>
+</footer>
 
 </body>
 </html>
