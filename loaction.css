@@ -1,0 +1,151 @@
+/* Body and General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f7f7f7, #d6d6d6);
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    color: #242628;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-icon img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  .logo-text h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .logo-text p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  /* Main Section Styles */
+  main {
+    padding: 20px;
+  }
+  
+  .location-section {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #6ce8c9;
+  }
+  
+  .address {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info {
+    text-align: center;
+    padding: 20px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .contact-info a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-media {
+    margin-top: 15px;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-media img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  hr {
+    border: 1px solid #ccc;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    color: rgb(43, 41, 41);
+  }
+  
+  .logo-icon img {
+    width: 130px;
+    height: 130px;
+    margin-right: 15px;
+  }
+  
+  .logo-text h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(28, 27, 27, 0.3);
+  }
+  
+  .logo-text p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
