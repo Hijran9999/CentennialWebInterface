@@ -28,7 +28,7 @@
     }
 
     /* Header styling */
-    header {
+   /*header {
       background: #6eb0f3;
       padding: 20px 0;
       color: #ffffff;
@@ -61,6 +61,33 @@
     header nav ul li a:hover {
       border: 2px solid #ffffff;
       border-radius: 5px;
+    }*/
+    header {
+      background-color: #007bff;
+      padding: 20px;
+    }
+    
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: left;
+    }
+    
+    header h1 {
+      color: white;
+      font-size: 24px;
+    }
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+    
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
     }
 
     /* Services Section */
@@ -155,7 +182,7 @@
   </style>
 </head>
 <body>
-  <header>
+  <!---<header>
     <div class="container">
       <div class="logo-container">
         <div class="logo-icon">
@@ -177,8 +204,32 @@
         </ul>
       </nav>
     </div>
-  </header>
+  </header>--->
 
+ <header>
+    <div class="logo-container">
+      <div class="logo-icon">
+        <img src="https://static.wixstatic.com/media/18a11d_7f89af62a0f947dba1513650581f8471~mv2.png/v1/fit/w_2500,h_1330,al_c/18a11d_7f89af62a0f947dba1513650581f8471~mv2.png" alt="Paint Brush Icon">
+      </div>
+      <div class="logo-text">
+        <h1>Legacy Painting</h1>
+        <p>Your Trusted Painting Experts</p>
+      </div>
+    </div>
+    <div class="container">
+     
+      <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="loaction.html">Location</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
   <section id="services" class="services-section">
     <div class="container">
       <h2>Our Services</h2>
